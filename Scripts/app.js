@@ -64,10 +64,10 @@ if (document.getElementById("contact") != null) {
   var lastName = document.getElementById("lastName");
         var email = document.getElementById("email");
         var comments= document.getElementById("comments");
-        var submitButton = document.getElementById("submit");
+        var submit= document.getElementById("submit");
         
 }
-submitButton.addEventListener("click", function(event){
+submit.addEventListener("click", function(event){
             event.preventDefault();
             console.log("firstName: " + firstName.value);
    console.log("lastName: " + lastName.value);
